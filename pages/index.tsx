@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef, useCallback} from 'react'
 import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
 
+import Head from 'next/head'
+
 import Header from '../components/Header';
 import Input from '../components/Input';
 import ReposNotRegistered from '../components/ReposNotRegistered';
@@ -69,6 +71,9 @@ const Home = () => {
 
   return (
     <>
+    <Head>
+      <script data-ad-client="ca-pub-7020394555307984" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </Head>
       <Header />
 
       <main>
